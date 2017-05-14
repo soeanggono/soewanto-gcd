@@ -17,7 +17,7 @@ Created by: Soewanto Anggono
 
 ### Compiling prerequisite: ###
 
-- Server has to be up and running, otherwise, the unit testing will be failed
+- Server has to be up and running with JMS queue installed and user authentication created with the correct privilege, otherwise, the unit testing will be failed
 - Alternatively, removing unit testing for jms queue will solve this issue
 
 ### How to compile: ###
