@@ -1,0 +1,3 @@
+<jboss-web>
+    <context-root>gcd-prog-rest</context-root>
+</jboss-web>
