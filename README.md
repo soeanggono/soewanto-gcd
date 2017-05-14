@@ -8,17 +8,17 @@ Created by: Soewanto Anggono
   gcd-prog-ejb/src/main/java/com/company/core/common/CommonConstant.java
   
 - Two jms queues are:
-  java:jboss/exported/jms/listint
-  java:jboss/exported/jms/listgcd
+  - java:jboss/exported/jms/listint
+  - java:jboss/exported/jms/listgcd
   
-- Standalone file is included containing jms queues configuration. However, username and password have to be configured separately in the server.
+- The standalone file is included containing jms queues configuration. However, username and password have to be configured separately on the server.
 
 - This code is tested in wildfly-10.1.0.Final server
 
 ### Compiling prerequisite: ###
 
-- Server has to be up and running, otherwise the unit testing will be failed
-- Aternatively, removing unit testing for jms queue will solve this issue
+- Server has to be up and running, otherwise, the unit testing will be failed
+- Alternatively, removing unit testing for jms queue will solve this issue
 
 ### How to compile: ###
 
